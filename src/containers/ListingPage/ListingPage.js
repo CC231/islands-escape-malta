@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ListingPricing from '../../components/ListingPricing';
 
+console.log("ListingPricing component loaded");
+
 const ListingPricing = ({ listing }) => {
   const [isFullDay, setIsFullDay] = useState(true);
   
