@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
+import ListingPricing from '../../components/ListingPricing';
 
 const ListingPricing = ({ listing }) => {
   const [isFullDay, setIsFullDay] = useState(true);
